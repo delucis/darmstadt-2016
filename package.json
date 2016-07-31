@@ -2,6 +2,7 @@
   "name": "darmstadt-2016",
   "version": "0.0.1",
   "description": "Demographic data for the 2016 edition of the Darmstadt Summer Courses",
+  "repository": "delucis/darmstadt-2016",
   "scripts": {
     "precompile": "npm run clean",
     "compile": "npm run yaml2json && npm run mergejson",
