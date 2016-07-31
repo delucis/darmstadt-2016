@@ -4,6 +4,8 @@
   "description": "Demographic data for the 2016 edition of the Darmstadt Summer Courses",
   "repository": "delucis/darmstadt-2016",
   "scripts": {
+    "css:build": "node-sass --include-path scss --output-style compressed src/scss/main.scss dist/css/main.css",
+    "css:watch": "node-sass --include-path scss --output-style compressed src/scss/main.scss dist/css/main.css -w",
     "predata:build": "npm run clean",
     "data:build": "npm run yaml:build && npm run json:build",
     "yaml:build": "./bin/convert-yaml.sh",
@@ -18,6 +20,7 @@
     "json-merge": "^1.2.0",
     "json_merger": "^1.1.0",
     "jsonlint-cli": "^1.0.1",
+    "node-sass": "^3.8.0",
     "rimraf": "^2.5.4",
     "yamljs": "^0.2.8"
   }
