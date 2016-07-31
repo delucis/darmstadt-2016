@@ -1,15 +1,10 @@
 #!/bin/bash
 DIST="dist"
-SRC="src/json"
+SRC="dist/json"
 MAIN="merged-data.json"
 if [[ -d "$SRC" ]]; then
   if [ "$(ls $SRC/*.json)" ]; then
     # json directory contains some .json files
-    if [[ ! -d "$DIST" ]]; then
-      # dist doesn’t exist so create it
-      echo "Creating $DIST..."
-      mkdir $DIST
-    fi
     echo "Creating $DIST/$MAIN..."
     echo '{"concerts":[],"lectures":[],"people":{}}' > $DIST/$MAIN
     echo "Starting merge..."

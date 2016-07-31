@@ -1,12 +1,18 @@
 #!/bin/bash
 SRC="src"
+DIST="dist"
 YAML="$SRC/yaml"
-JSON="$SRC/json"
+JSON="$DIST/json"
 if [[ -d "$YAML" ]]; then
   if [ "$(ls $YAML/*.yml)" ]; then
     # yaml directory contains some .yml files
     if [[ ! -d "$JSON" ]]; then
       # json directory doesn’t exist yet
+      if [[ ! -d "$DIST" ]]; then
+        # dist directory doesn’t exist yet
+        echo "Creating directory $DIST..."
+        mkdir $DIST
+      fi
       echo "Creating directory $JSON..."
       mkdir $JSON
     fi
