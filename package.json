@@ -32,6 +32,7 @@
   "dependencies": {
     "browserify": "^13.1.0",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
+    "d3": "^4.2.0",
     "json-merge": "^1.2.0",
     "json_merger": "^1.1.0",
     "jsonlint-cli": "^1.0.1",
