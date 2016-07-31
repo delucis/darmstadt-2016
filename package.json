@@ -4,11 +4,11 @@
   "description": "Demographic data for the 2016 edition of the Darmstadt Summer Courses",
   "repository": "delucis/darmstadt-2016",
   "scripts": {
-    "precompile": "npm run clean",
-    "compile": "npm run yaml2json && npm run mergejson",
-    "yaml2json": "./bin/convert-yaml.sh",
-    "postyaml2json": "jsonlint-cli dist/json/*.json",
-    "mergejson": "./bin/merge-json.sh",
+    "predata:build": "npm run clean",
+    "data:build": "npm run yaml:build && npm run json:build",
+    "yaml:build": "./bin/convert-yaml.sh",
+    "postyaml:build": "jsonlint-cli dist/json/*.json",
+    "json:build": "./bin/merge-json.sh",
     "clean": "rimraf dist/json dist/merged-data.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
