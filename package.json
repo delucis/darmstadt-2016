@@ -4,14 +4,16 @@
   "description": "Demographic data for the 2016 edition of the Darmstadt Summer Courses",
   "repository": "delucis/darmstadt-2016",
   "scripts": {
+    "clean": "npm run css:clean && npm run data:clean",
     "css:build": "node-sass --include-path scss --output-style compressed src/scss/main.scss dist/css/main.css",
     "css:watch": "node-sass --include-path scss --output-style compressed src/scss/main.scss dist/css/main.css -w",
-    "predata:build": "npm run clean",
+    "css:clean": "dist/css",
+    "predata:build": "npm run data:clean",
     "data:build": "npm run yaml:build && npm run json:build",
+    "data:clean": "rimraf dist/json dist/merged-data.json",
     "yaml:build": "./bin/convert-yaml.sh",
     "postyaml:build": "jsonlint-cli dist/json/*.json",
     "json:build": "./bin/merge-json.sh",
-    "clean": "rimraf dist/json dist/merged-data.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Swithinbank <swithinbank@gmail.com>",
