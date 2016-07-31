@@ -1,0 +1,34 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Commodity Music"
+    programme:
+      -
+        composer: François Sarhan
+        work: Commodity Music
+    performers:
+      - Camille Lézer
+      - Kobe Van Cauwenberghe
+      - Toon Callier
+      - Johannes Westendorp
+      - Jona Kesteleyn
+    meta:
+      date: 2016-07-31
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/316-31-07-2016/1905-commoditymusic-en.html
+      categorisation: Darmstadt-2016
+people:
+  François Sarhan:
+    gender: MALE
+  Camille Lézer:
+    gender: MALE
+  Kobe Van Cauwenberghe:
+    gender: MALE
+  Toon Callier:
+    gender: MALE
+  Johannes Westendorp:
+    gender: MALE
+  Jona Kesteleyn:
+    gender: MALE

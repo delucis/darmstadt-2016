@@ -1,0 +1,26 @@
+@extends: [merged-data.json]
+@append: true
+lectures:
+  -
+    @append: true
+    name: "Rückspiegel – Seven Works from Seven Decades: PRINS"
+    programme:
+      -
+        speaker: Ulrich Mosch
+      -
+        composer: Stefan Prins
+        work: PIANO HERO
+    performers:
+      - Stéphane Ginsburgh
+    meta:
+      date: 2016-07-31
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/316-31-07-2016/1807-rueckspiegel-prins-en.html
+      categorisation: Darmstadt-2016
+people:
+  Ulrich Mosch:
+    gender: MALE
+  Stefan Prins:
+    gender: MALE
+  Stéphane Ginsburgh:
+    gender: MALE

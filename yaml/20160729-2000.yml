@@ -1,0 +1,63 @@
+@extends: [merged-data.json]
+concerts:
+  -
+    @append: true
+    name: "Vortex Temporum"
+    programme:
+      -
+        composer: Gérard Grisey
+        work: Vortex Temporum
+        choreographer: Anne Teresa De Keersmaeker
+    performers:
+      - Boštjan Antončič
+      - Carlos Garbin
+      - Marie Goudot
+      - Cynthia Loemij
+      - Julien Monty
+      - Michael Pomero
+      - Igor Shyshko
+      - Georges-Elie Octors
+      - Michael Schmid
+      - Dirk Descheemaeker
+      - Jean-Luc Plouvier
+      - Igor Semenoff
+      - Jeroen Robbrecht
+      - Geert De Bièvre
+    meta:
+      date: 2016-07-29
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016.html
+      categorisation: Darmstadt-2016
+people:
+  Gérard Grisey:
+    gender: MALE
+  Anne Teresa De Keersmaeker:
+    gender: FEMALE
+  Boštjan Antončič:
+    gender: MALE
+  Carlos Garbin:
+    gender: MALE
+  Marie Goudot:
+    gender: FEMALE
+  Cynthia Loemij:
+    gender: FEMALE
+  Julien Monty:
+    gender: MALE
+  Michael Pomero:
+    gender: MALE
+  Igor Shyshko:
+    gender: MALE
+  Georges-Elie Octors:
+    gender: MALE
+  Michael Schmid:
+    gender: MALE
+  Dirk Descheemaeker:
+    gender: MALE
+  Jean-Luc Plouvier:
+    gender: MALE
+  Igor Semenoff:
+    gender: MALE
+  Jeroen Robbrecht:
+    gender: MALE
+  Geert De Bièvre:
+    gender: MALE

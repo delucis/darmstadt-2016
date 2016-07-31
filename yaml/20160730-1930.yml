@@ -1,0 +1,44 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "International Music Theatre Competition Darmstadt"
+    programme:
+      -
+        composer: Patricia Martínez
+        work: La Niña Helada (Das vereiste Mädchen)
+        librettist: Mariano Saba
+      -
+        composer: Marta Gentilucci
+        work: (On) The Other Side of The Skin. Lullaby
+      -
+        composer: Sivan Cohen Elias
+        work: .onion
+        librettist: [Reynard Hulme, Sivan Cohen Elias]
+      -
+        composer: Abel Paúl
+        work: gyre and gimble
+      -
+        composer: Carsten Hennig
+        work: selbstversuch
+    meta:
+      date: 2016-07-30
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/315-30-07-2016/1801-musiktheaterwettbewerb-en.html
+      categorisation: Darmstadt-2016
+people:
+  Patricia Martínez:
+    gender: FEMALE
+  Marta Gentilucci:
+    gender: FEMALE
+  Sivan Cohen Elias:
+    gender: FEMALE
+  Abel Paúl:
+    gender: MALE
+  Carsten Hennig:
+    gender: MALE
+  Mariano Saba:
+    gender: MALE
+  Reynard Hulme:
+    gender: MALE

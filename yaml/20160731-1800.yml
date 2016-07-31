@@ -1,0 +1,52 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Koma"
+    programme:
+      -
+        composer: Georg Friedrich Haas
+        work: Koma
+        librettist: Händl Klaus
+    performers:
+      - Ruth Weber
+      - Ekkehard Abele
+      - Lini Gong
+      - Daniel Gloger
+      - Maika Troscheit
+      - Maria Ammann
+      - Alexander Baab
+      - David Földszin
+      - Sinan Aslan
+      - Johannes Harneit
+    meta:
+      date: 2016-07-31
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/316-31-07-2016/1809-koma-en.html
+      categorisation: Darmstadt-2016
+people:
+  Georg Friedrich Haas:
+    gender: MALE
+  Händl Klaus:
+    gender: MALE
+  Ruth Weber:
+    gender: FEMALE
+  Ekkehard Abele:
+    gender: MALE
+  Lini Gong:
+    gender: FEMALE
+  Daniel Gloger:
+    gender: MALE
+  Maika Troscheit:
+    gender: FEMALE
+  Maria Ammann:
+    gender: FEMALE
+  Alexander Baab:
+    gender: MALE
+  David Földszin:
+    gender: MALE
+  Sinan Aslan:
+    gender: MALE
+  Johannes Harneit:
+    gender: MALE

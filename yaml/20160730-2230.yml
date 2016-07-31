@@ -1,0 +1,28 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Piano Hero"
+    programme:
+      -
+        composer: Stefan Prins
+        work: "Piano Hero #1"
+      -
+        composer: Stefan Prins
+        work: "Piano Hero #2"
+      -
+        composer: Stefan Prins
+        work: "Piano Hero #3"
+    performers:
+      - Stéphane Ginsburgh
+    meta:
+      date: 2016-07-30
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/315-30-07-2016/1803-piano-hero-en.html
+      categorisation: Darmstadt-2016
+people:
+  Stefan Prins:
+    gender: MALE
+  Stéphane Ginsburgh:
+    gender: MALE
