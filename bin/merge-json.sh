@@ -1,18 +1,24 @@
 #!/bin/bash
-SRC="json"
+DIST="dist"
+SRC="src/json"
 MAIN="merged-data.json"
 if [[ -d "$SRC" ]]; then
   if [ "$(ls $SRC/*.json)" ]; then
     # json directory contains some .json files
-    echo "Creating $MAIN..."
-    echo '{"concerts":[],"lectures":[],"people":{}}' > $MAIN
+    if [[ ! -d "$DIST" ]]; then
+      # dist doesn’t exist so create it
+      echo "Creating $DIST..."
+      mkdir $DIST
+    fi
+    echo "Creating $DIST/$MAIN..."
+    echo '{"concerts":[],"lectures":[],"people":{}}' > $DIST/$MAIN
     echo "Starting merge..."
     for file in $( ls $SRC/*.json ); do
       if [[ "$file" != "$SRC/$MAIN" ]]; then
         # handle each .json source file, except json/merged-data.json
         echo "    merging $file..."
-        cp $MAIN $SRC/$MAIN
-        json_merger $file > $MAIN
+        cp $DIST/$MAIN $SRC/$MAIN
+        json_merger $file > $DIST/$MAIN
       fi
     done
     echo "Finished."

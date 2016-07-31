@@ -1,13 +1,14 @@
 #!/bin/bash
-YAML="yaml"
-JSON="json"
+SRC="src"
+YAML="$SRC/yaml"
+JSON="$SRC/json"
 if [[ -d "$YAML" ]]; then
   if [ "$(ls $YAML/*.yml)" ]; then
     # yaml directory contains some .yml files
-    if [[ ! -d "json" ]]; then
+    if [[ ! -d "$JSON" ]]; then
       # json directory doesn’t exist yet
-      echo "Creating directory “json”..."
-      mkdir json
+      echo "Creating directory $JSON..."
+      mkdir $JSON
     fi
     echo "Starting conversion..."
     for file in $( ls $YAML/*.yml ); do

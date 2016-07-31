@@ -1,6 +1,6 @@
 ### Project-specific ###
-json/*
-merged-data.json
+src/json/*
+dist/*
 
 # Created by https://www.gitignore.io/api/node
 

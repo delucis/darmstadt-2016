@@ -7,9 +7,9 @@
     "precompile": "npm run clean",
     "compile": "npm run yaml2json && npm run mergejson",
     "yaml2json": "./bin/convert-yaml.sh",
-    "postyaml2json": "jsonlint-cli json/*.json",
+    "postyaml2json": "jsonlint-cli src/json/*.json",
     "mergejson": "./bin/merge-json.sh",
-    "clean": "rimraf json merged-data.json",
+    "clean": "rimraf src/json build/merged-data.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Chris Swithinbank <swithinbank@gmail.com>",
