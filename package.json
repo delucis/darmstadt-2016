@@ -5,10 +5,10 @@
   "repository": "delucis/darmstadt-2016",
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "npm run html:build && npm run css:build && npm run js:build && npm run data:build",
+    "build": "npm run html:build & npm run css:build & npm run js:build & npm run data:build",
     "prewatch": "npm run build",
-    "watch": "npm run html:watch && npm run css:watch && npm run js:watch && npm run data:watch",
-    "clean": "npm run html:clean && npm run css:clean && npm run js:clean && npm run data:clean",
+    "watch": "npm run html:watch & npm run css:watch & npm run js:watch & npm run data:watch",
+    "clean": "npm run html:clean & npm run css:clean & npm run js:clean & npm run data:clean",
     "html:build": "cpy '**/*.html' '../dist/' --cwd=src --parents",
     "html:watch": "nodemon -e html --ignore dist/ -x \"npm run html:build\"",
     "html:clean": "rimraf dist/**/*.html",
