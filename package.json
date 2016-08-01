@@ -9,6 +9,7 @@
     "prewatch": "npm run build",
     "watch": "npm run html:watch & npm run css:watch & npm run js:watch & npm run data:watch",
     "clean": "npm run html:clean & npm run css:clean & npm run js:clean & npm run data:clean",
+    "dev": "npm run watch & http-server dist -a localhost",
     "html:build": "cpy '**/*.html' '../dist/' --cwd=src --parents",
     "html:watch": "nodemon -e html --ignore dist/ -x \"npm run html:build\"",
     "html:clean": "rimraf dist/**/*.html",
@@ -42,5 +43,8 @@
     "rimraf": "^2.5.4",
     "watchify": "^3.7.0",
     "yamljs": "^0.2.8"
+  },
+  "devDependencies": {
+    "http-server": "^0.9.0"
   }
 }
