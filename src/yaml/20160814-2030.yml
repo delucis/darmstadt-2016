@@ -1,0 +1,28 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "UN/RUHE"
+    programme:
+      -
+        composer: Richard Wagner
+        work: Tristan und Isolde, Vorspiel WWV 90
+      -
+        composer: Rebecca Saunders
+        work: still – choreographische Version
+      -
+        composer: Alban Berg
+        work: Lulu-Suite. Symphonische Stücke aus der Oper Lulu
+    meta:
+      date: 2016-08-14
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/330-14-08-2016/1900-unruhe-en.html
+      categorisation: Darmstadt-2016
+people:
+  Richard Wagner:
+    gender: MALE
+  Rebecca Saunders:
+    gender: FEMALE
+  Alban Berg:
+    gender: MALE
