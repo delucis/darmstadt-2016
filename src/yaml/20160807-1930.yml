@@ -1,0 +1,38 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Distractfold"
+    programme:
+      -
+        composer: Sabrina Schroeder
+        work: Bone Games
+      -
+        composer: Ana Dall’Ara-Majek
+        work: Bacillus Chorus
+      -
+        composer: Mauricio Pauly
+        work: Charred Edifice Shining
+      -
+        composer: Lee Fraser
+        work: Pline Expol A
+      -
+        composer: Sam Salem
+        work: Untitled Valley of Fear
+    meta:
+      date: 2016-08-07
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/323-07-08-2016/1855-distractfold-en.html
+      categorisation: Darmstadt-2016
+people:
+  Sabrina Schroeder:
+    gender: FEMALE
+  Ana Dall’Ara-Majek:
+    gender: FEMALE
+  Mauricio Pauly:
+    gender: MALE
+  Lee Fraser:
+    gender: MALE
+  Sam Salem:
+    gender: MALE

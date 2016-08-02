@@ -1,0 +1,51 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Clarinet Extended"
+    programme:
+      -
+        composer: Michael Pelzel
+        work: Gravity’s Rainbow
+      -
+        composer: [Jorge Sánchez-Chiong, Louise Linsenbolz, Thomas Wagensommerer]
+        work: ZYT. Game
+      -
+        composer: Sergej Newski
+        work: Rules of Love
+    performers:
+      - Ernesto Molinari
+      - Jorge Sánchez-Chiong
+      - Martin Siewert
+      - Truike van der Poel
+      - Krassimir Sterev
+      - Duncan Ward
+      - Louise Linsenbolz
+      - Thomas Wagensommerer
+    meta:
+      date: 2016-08-05
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/321-05-08-2016/1838-extended-clarinet-en.html
+      categorisation: Darmstadt-2016
+people:
+  Michael Pelzel:
+    gender: MALE
+  Jorge Sánchez-Chiong:
+    gender: MALE
+  Louise Linsenbolz:
+    gender: FEMALE
+  Thomas Wagensommerer:
+    gender: MALE
+  Sergej Newski:
+    gender: MALE
+  Ernesto Molinari:
+    gender: MALE
+  Martin Siewert:
+    gender: MALE
+  Truike van der Poel:
+    gender: FEMALE
+  Krassimir Sterev:
+    gender: MALE
+  Duncan Ward:
+    gender: MALE

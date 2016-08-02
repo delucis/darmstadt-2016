@@ -1,0 +1,18 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "historage: Distractfold"
+    programme:
+      -
+        composer: Alexey Shmurak
+        work: lecture notes
+    meta:
+      date: 2016-08-06
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/322-06-08-2016/1850-historage-distractfold-en.html
+      categorisation: Darmstadt-2016
+people:
+  Alexey Shmurak:
+    gender: MALE

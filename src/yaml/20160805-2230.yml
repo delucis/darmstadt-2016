@@ -1,0 +1,18 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Sideshow"
+    programme:
+      -
+        composer: Steven K. Takasugi
+        work: Sideshow
+    meta:
+      date: 2016-08-05
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/321-05-08-2016/1840-sideshow-en.html
+      categorisation: Darmstadt-2016
+people:
+  Steven K. Takasugi:
+    gender: MALE

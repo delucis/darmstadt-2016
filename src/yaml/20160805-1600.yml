@@ -1,0 +1,21 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Beat Furrer: SCAN"
+    programme:
+      -
+        composer: Beat Furrer
+        work: presto
+      -
+        composer: Beat Furrer
+        work: linea dell’orizzonte
+    meta:
+      date: 2016-08-05
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/321-05-08-2016/2001-beat-furrer-scan-en.html
+      categorisation: Darmstadt-2016
+people:
+  Beat Furrer:
+    gender: MALE
