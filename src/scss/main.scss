@@ -24,14 +24,15 @@ body {
   color: #444;
 }
 
+#footer {
+  padding: 2em 5%;
+  color: #000;
+  background-color: lighten($secondary, 15%);
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
   margin-top: 0;
-}
-
-a {
-  font-weight: 500;
-  text-decoration: none;
 }
 
 ul {
@@ -46,6 +47,15 @@ ul {
   }
   &.details {
     font-size: 0.9em;
+    a {
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
   }
 }
 
@@ -73,11 +83,18 @@ li {
     li {
       width: 28.3%;
     }
+    #footer {
+      padding-right: 38.3%;
+    }
+
 }
 
 @media only screen and (min-width: 60em) {
     li {
       width: 20%;
+    }
+    #footer {
+      padding-right: 55%;
     }
 }
 
