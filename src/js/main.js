@@ -17,7 +17,7 @@ function render(mergedData) {
     .html(function (d) {
       var p = proportions[d];
       var header = '<h3>' + d + '</h3>';
-      var stats = '<p>♂ ' + p.m + ' - ' + p.f + ' ♀</p>';
+      var stats = formatProportion(p, 'p');
       return header+stats;
     });
 
@@ -34,10 +34,10 @@ function render(mergedData) {
       var title = '<a href="' + d.meta.url + '">' + d.name + '</a>';
       var perfPropString = '', compPropString = '';
       if (perfProp !== undefined) {
-        perfPropString = "<br>Performers: ♂ " + perfProp.m + " - " + perfProp.f + " ♀";
+        perfPropString = "<br>Performers: " + formatProportion(perfProp);
       }
       if (compProp !== undefined) {
-        compPropString = "<br>Composers: ♂ " + compProp.m + " - " + compProp.f + " ♀";
+        compPropString = "<br>Composers: " + formatProportion(compProp);
       }
       return title + perfPropString + compPropString;
     });
