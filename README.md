@@ -13,7 +13,8 @@
   npm install
   ```
 
-3. Build source
+3. Build source, watch for changes, and serve on local machine:
   ```sh
-  npm run build
+  npm run dev
   ```
+  This will give you a local version of the site at <http://localhost:8080/>
