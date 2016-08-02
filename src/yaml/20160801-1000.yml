@@ -1,0 +1,17 @@
+@extends: [merged-data.json]
+@append: true
+lectures:
+  -
+    @append: true
+    name: "Chaya Czernowin: On recent pieces"
+    programme:
+      -
+        speaker: Chaya Czernowin
+    meta:
+      date: 2016-08-01
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/317-01-08-2016/1942-lecture-czernowin-en.html
+      categorisation: Darmstadt-2016
+people:
+  Chaya Czernowin:
+    gender: FEMALE

@@ -1,0 +1,35 @@
+@extends: [merged-data.json]
+@append: true
+lectures:
+  -
+    @append: true
+    name: "Rückspiegel – Seven Works from Seven Decades: FERNEYHOUGH"
+    programme:
+      -
+        speaker: Ulrich Mosch
+      -
+        composer: Brian Ferneyhough
+        work: String Quartet No. 3
+    performers:
+      - Irvine Arditti
+      - Ashot Sarkissjan
+      - Ralf Ehlers
+      - Lucas Fels
+    meta:
+      date: 2016-08-01
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/317-01-08-2016/1811-rueckspiegel-ferneyhough-en.html
+      categorisation: Darmstadt-2016
+people:
+  Ulrich Mosch:
+    gender: MALE
+  Brian Ferneyhough:
+    gender: MALE
+  Irvine Arditti:
+    gender: MALE
+  Ashot Sarkissjan:
+    gender: MALE
+  Ralf Ehlers:
+    gender: MALE
+  Lucas Fels:
+    gender: MALE

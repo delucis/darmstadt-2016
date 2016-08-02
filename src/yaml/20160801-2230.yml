@@ -1,0 +1,40 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Metalized Void"
+    programme:
+      -
+        composer: Hanna Eimermacher
+        work: Musiktheater für einen Schlagzeuger
+      -
+        composer: Johannes Kreidler
+        work: Fantasies of Downfall
+      -
+        composer: Mark Andre
+        work: S2
+      -
+        composer: Claus-Steffen Mahnkopf
+        work: metalized void
+    performers:
+      - Håkon Stene
+      - Christian Dierstein
+    meta:
+      date: 2016-08-01
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/317-01-08-2016/1822-metalized-void-en.html
+      categorisation: Darmstadt-2016
+people:
+  Hanna Eimermacher:
+    gender: FEMALE
+  Johannes Kreidler:
+    gender: MALE
+  Claus-Steffen Mahnkopf:
+    gender: MALE
+  Mark Andre:
+    gender: MALE
+  Håkon Stene:
+    gender: MALE
+  Christian Dierstein:
+    gender: MALE

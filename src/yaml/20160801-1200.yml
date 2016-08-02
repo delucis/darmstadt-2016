@@ -1,0 +1,17 @@
+@extends: [merged-data.json]
+@append: true
+lectures:
+  -
+    @append: true
+    name: "Klaus Lang: Love and notation"
+    programme:
+      -
+        speaker: Klaus Lang
+    meta:
+      date: 2016-08-01
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/317-01-08-2016/1944-lecture-lang-en.html
+      categorisation: Darmstadt-2016
+people:
+  Klaus Lang:
+    gender: MALE

@@ -1,0 +1,40 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "The Force of Things"
+    programme:
+      -
+        composer: Ashley Fure
+        work: The Force of Things
+    performers:
+      - Alice Teyssier
+      - Lucy Dhegrae
+      - Kivie Cahn-Lipman
+      - Rebekah Heller
+      - Ross Karre
+      - Ryan Muncy
+      - Levy Lorenzo
+    meta:
+      date: 2016-08-01
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/317-01-08-2016/1818-forceofthings19-en.html
+      categorisation: Darmstadt-2016
+people:
+  Ashley Fure:
+    gender: FEMALE
+  Alice Teyssier:
+    gender: FEMALE
+  Lucy Dhegrae:
+    gender: FEMALE
+  Kivie Cahn-Lipman:
+    gender: MALE
+  Rebekah Heller:
+    gender: FEMALE
+  Ross Karre:
+    gender: MALE
+  Ryan Muncy:
+    gender: MALE
+  Levy Lorenzo:
+    gender: MALE
