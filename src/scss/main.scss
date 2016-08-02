@@ -72,6 +72,21 @@ li {
   white-space: nowrap;
 }
 
+.button {
+  a {
+    text-decoration: none;
+    background: $secondary;
+    color: $black;
+    padding: 0.8em;
+    margin: 0.4em 0.8em 0.4em 0;
+    display: inline-block;
+    &:hover {
+      background: darken($secondary, 20%);
+      color: $white;
+    }
+  }
+}
+
 @import "h5bp-helpers";
 
 /* ==========================================================================
