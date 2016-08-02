@@ -6,6 +6,7 @@
    ========================================================================== */
 
    $highlight: #93FFE8;
+   $black: #000;
    $white: #fff;
    $secondary: #FF94AB;
 
@@ -26,7 +27,7 @@ body {
 
 #footer {
   padding: 2em 5%;
-  color: #000;
+  color: $black;
   background-color: lighten($secondary, 15%);
 }
 
@@ -43,7 +44,7 @@ ul {
   background-color: $white;
   &.overview {
     background-color: $highlight;
-    color: #000;
+    color: $black;
   }
   &.details {
     font-size: 0.9em;
