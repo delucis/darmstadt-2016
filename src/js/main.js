@@ -134,21 +134,32 @@ function getComposerProportion(concert, people) {
     var m = 0, f = 0, o = 0, u = 0;
     for (var i = 0; i < programme.length; i++) {
       if (programme[i].hasOwnProperty('composer')) {
-        var composer = programme[i].composer;
-        if (people[composer].hasOwnProperty('gender')) {
-          switch (people[composer].gender) {
-            case "MALE":
-              m += 1;
-              break;
-            case "FEMALE":
-              f += 1;
-              break;
-            default:
-              o += 1;
-              break;
-          }
+        var composers = new Array();
+        var composerField = programme[i].composer;
+        if (typeof composerField === 'object' && Array.isArray(composerField)) {
+          composers = composerField;
+        } else if (typeof composerField === 'string') {
+          composers.push(composerField);
         } else {
-          u += 1;
+          break
+        }
+        for (var j = 0; j < composers.length; j++) {
+          var composer = composers[j]
+          if (people[composer].hasOwnProperty('gender')) {
+            switch (people[composer].gender) {
+              case "MALE":
+                m += 1;
+                break;
+              case "FEMALE":
+                f += 1;
+                break;
+              default:
+                o += 1;
+                break;
+            }
+          } else {
+            u += 1;
+          }
         }
       }
     }
