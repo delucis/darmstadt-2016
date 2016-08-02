@@ -2,20 +2,46 @@
 @import "h5bp-base";
 
 /* ==========================================================================
+   Variables
+   ========================================================================== */
+
+   $highlight: #93FFE8;
+   $white: #fff;
+   $secondary: #FF94AB;
+
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+body {
+  background-color: $secondary;
+}
+
 #vizbox {
-  margin: 2%;
-  width: 96%;
+  width: 100%;
+  color: #444;
+}
+
+a {
+  font-weight: 900;
+  text-decoration: none;
 }
 
 ul {
   margin: 0;
-  padding: 0;
+  padding: 1em 5%;
   display: flex;
   flex-wrap: wrap;
+  background-color: $white;
+  &.overview {
+    background-color: $highlight;
+    color: #000;
+  }
+  &.details {
+    font-size: 0.9em;
+  }
 }
+
 li {
   display: block;
   width: 45%;
