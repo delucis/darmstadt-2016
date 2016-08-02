@@ -1,0 +1,43 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "hand werk"
+    programme:
+      -
+        composer: Wieland Hoban
+        work: Subkutane Kontroversen
+      -
+        composer: Jessie Marino
+        work: Witford Brimley and his Robot Dog seize Burger King in a Bloodless Coup
+      -
+        composer: Bernhard Gander
+        work: schlechtecharakterstücke
+      -
+        composer: Sabrina Schroeder
+        work: He Cuts Snow
+      -
+        composer: Niklas Seidl
+        work: Das verschmierteste Leben der Doreen Klax
+      -
+        composer: Luis Antunes Pena
+        work: fragments of noise and blood
+    meta:
+      date: 2016-08-09
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/325-09-08-2016/1865-hand-werk-en.html
+      categorisation: Darmstadt-2016
+people:
+  Wieland Hoban:
+    gender: MALE
+  Jessie Marino:
+    gender: FEMALE
+  Bernhard Gander:
+    gender: MALE
+  Sabrina Schroeder:
+    gender: FEMALE
+  Niklas Seidl:
+    gender: MALE
+  Luis Antunes Pena:
+    gender: MALE

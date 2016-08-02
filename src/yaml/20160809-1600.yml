@@ -1,0 +1,37 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Polyptychon"
+    programme:
+      -
+        composer: Katherine Young
+        work: Earhart & the Queen of Spades
+      -
+        composer: Trevor Bača
+        work: Spiel der Dornen
+      -
+        composer: Oscar Bianchi
+        work: New work
+      -
+        composer: Sergej Maingardt
+        work: "#sex_drugs_rocknroll"
+    performers:
+      - Nico Couck
+    meta:
+      date: 2016-08-09
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/325-09-08-2016/1863-polyptychon-en.html
+      categorisation: Darmstadt-2016
+people:
+  Katherine Young:
+    gender: FEMALE
+  Trevor Bača:
+    gender: MALE
+  Oscar Bianchi:
+    gender: MALE
+  Sergej Maingardt:
+    gender: MALE
+  Nico Couck:
+    gender: MALE

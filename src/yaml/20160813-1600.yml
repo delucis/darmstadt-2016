@@ -1,0 +1,38 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Carte blanche: Schallfeld"
+    programme:
+      -
+        composer: Anahita Abbasi
+        work: Situationen/Dialoge
+      -
+        composer: Andrés Gutiérrez
+        work: IO
+      -
+        composer: Lorenzo Romano
+        work: Furore
+      -
+        composer: Franck Bedrossian
+        work: IT
+      -
+        composer: Richard Barrett
+        work: Codex I
+    meta:
+      date: 2016-08-13
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/329-13-08-2016/1889-schallfeld-en.html
+      categorisation: Darmstadt-2016
+people:
+  Anahita Abbasi:
+    gender: FEMALE
+  Andrés Gutiérrez:
+    gender: MALE
+  Lorenzo Romano:
+    gender: MALE
+  Franck Bedrossian:
+    gender: MALE
+  Richard Barrett:
+    gender: MALE

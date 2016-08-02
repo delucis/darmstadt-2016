@@ -1,0 +1,37 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Tolerance Stacks"
+    programme:
+      -
+        composer: Annesley Black
+        work: tolerance stacks
+    performers:
+      - Julia Mihály
+      - Mark Lorenz Kysela
+      - Nikola Lutz
+      - Martin Lorenz
+      - Sebastian Berweck
+      - Ajtony Csaba
+    meta:
+      date: 2016-08-11
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/327-11-08-2016/1877-tolerance-stacks-en.html
+      categorisation: Darmstadt-2016
+people:
+  Annesley Black:
+    gender: FEMALE
+  Julia Mihály:
+    gender: FEMALE
+  Mark Lorenz Kysela:
+    gender: MALE
+  Nikola Lutz:
+    gender: FEMALE
+  Martin Lorenz:
+    gender: MALE
+  Sebastian Berweck:
+    gender: MALE
+  Ajtony Csaba:
+    gender: MALE

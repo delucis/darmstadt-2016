@@ -1,0 +1,48 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "ROTOR#4"
+    programme:
+      -
+        composer: Bernard Parmegiani
+        work: Strio (Teil II und III)
+      -
+        composer: Tristan Murail
+        work: Atlantys
+      -
+        composer: Tristan Murail
+        work: Cité de la vision interdite
+      -
+        composer: Mario de Vega
+        work: Live Set
+      -
+        composer: Phillip Sollmann
+        work: DJ Set
+    performers:
+      - Mario de Vega
+      - Phillip Sollmann
+      - Sebastian Berweck
+      - Colette Broeckaert
+      - Martin Lorenz
+    meta:
+      date: 2016-08-09
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/325-09-08-2016/1867-rotor4-en.html
+      categorisation: Darmstadt-2016
+people:
+  Bernard Parmegiani:
+    gender: MALE
+  Tristan Murail:
+    gender: MALE
+  Mario de Vega:
+    gender: MALE
+  Phillip Sollmann:
+    gender: MALE
+  Sebastian Berweck:
+    gender: MALE
+  Colette Broeckaert:
+    gender: FEMALE
+  Martin Lorenz:
+    gender: MALE

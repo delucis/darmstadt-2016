@@ -1,0 +1,28 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Carte Blanche: Mocrep"
+    programme:
+      -
+        composer: Jennifer Walshe
+        work: VOLUNTEER CHORUS
+      -
+        composer: James Saunders
+        work: positions in the sequence correctly recalled
+      -
+        composer: Neele Huelcker
+        work: New work
+    meta:
+      date: 2016-08-11
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/327-11-08-2016/1875-mocrep-en.html
+      categorisation: Darmstadt-2016
+people:
+  Jennifer Walshe:
+    gender: FEMALE
+  James Saunders:
+    gender: MALE
+  Neele Huelcker:
+    gender: FEMALE

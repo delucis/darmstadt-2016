@@ -1,0 +1,48 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Cloud Polyphonies"
+    programme:
+      -
+        composer: James Wood
+        work: Cloud-Polyphonies
+      -
+        composer: Georges Aperghis
+        work: Zig Bang
+      -
+        composer: François Sarhan
+        work: Situations
+      -
+        composer: Francesco Filidei
+        work: I Funerali dell’Anarchico Serantini
+      -
+        composer: Marko Ciciliani
+        work: Black Horizon
+      -
+        composer: Simon Løffler
+        work: c
+      -
+        composer: Klaus Lang
+        work: the moon in a moonless sky. (two.)
+    meta:
+      date: 2016-08-08
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/324-08-08-2016/1857-cloud-polyphonies-en.html
+      categorisation: Darmstadt-2016
+people:
+  James Wood:
+    gender: MALE
+  Georges Aperghis:
+    gender: MALE
+  François Sarhan:
+    gender: MALE
+  Francesco Filidei:
+    gender: MALE
+  Marko Ciciliani:
+    gender: MALE
+  Simon Løffler:
+    gender: MALE
+  Klaus Lang:
+    gender: MALE

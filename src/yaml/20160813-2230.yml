@@ -1,0 +1,20 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Hanno Leichtmann"
+    programme:
+      -
+        composer: Hanno Leichtmann
+        work: Unfinished Portrait Of Roedelius Today
+    performers:
+      - Hanno Leichtmann
+    meta:
+      date: 2016-08-13
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/329-13-08-2016/1894-leichtmann-en.html
+      categorisation: Darmstadt-2016
+people:
+  Hanno Leichtmann:
+    gender: MALE
