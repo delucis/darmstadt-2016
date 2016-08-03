@@ -20,7 +20,7 @@
     "ico:watch": "nodemon -e ico --ignore dist/ -x \"npm run ico:build\"",
     "ico:clean": "rimraf dist/**/*.ico",
     "img:build": "cpy '**/*.png' '../dist/' --cwd=src --parents",
-    "img:watch": "nodemon -e png --ignore dist/ -x \"npm run png:build\"",
+    "img:watch": "nodemon -e png --ignore dist/ -x \"npm run img:build\"",
     "img:clean": "rimraf dist/**/*.png",
     "js:build": "mkdirp dist/js && browserify src/js/main.js > dist/js/main.js",
     "js:watch": "mkdirp dist/js && watchify src/js/main.js -o dist/js/main.js",
