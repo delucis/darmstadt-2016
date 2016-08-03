@@ -5,7 +5,7 @@
   "repository": "delucis/darmstadt-2016",
   "scripts": {
     "prebuild": "npm run clean",
-    "build": "npm run assets:clean & npm run css:build & npm run js:build & npm run data:build",
+    "build": "npm run assets:build & npm run css:build & npm run js:build & npm run data:build",
     "prewatch": "npm run build",
     "watch": "npm run assets:watch & npm run css:watch & npm run js:watch & npm run data:watch",
     "clean": "npm run assets:clean & npm run css:clean & npm run js:clean & npm run data:clean",
