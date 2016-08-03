@@ -23,6 +23,16 @@ concerts:
       -
         composer: Luis Antunes Pena
         work: fragments of noise and blood
+    performers:
+      - Gunhildur Einarsdóttir
+      - Stephen Menotti
+      - Caleb Salgado
+      - Stefanie Van Backlé
+      - Rie Watanabe
+      - Heather Roche
+      - Niklas Seidl
+      - Daniel Agi
+      - Christoph Stöber
     meta:
       date: 2016-08-09
       country: DE
@@ -40,4 +50,20 @@ people:
   Niklas Seidl:
     gender: MALE
   Luis Antunes Pena:
+    gender: MALE
+  Gunhildur Einarsdóttir:
+    gender: FEMALE
+  Stephen Menotti:
+    gender: MALE
+  Caleb Salgado:
+    gender: MALE
+  Stefanie Van Backlé:
+    gender: FEMALE
+  Rie Watanabe:
+    gender: FEMALE
+  Heather Roche:
+    gender: FEMALE
+  Daniel Agi:
+    gender: MALE
+  Christoph Stöber:
     gender: MALE
