@@ -9,6 +9,10 @@ function render(mergedData) {
   var vizbox = d3.select("#vizbox");
 
   vizbox
+    .select("#placeholder")
+    .remove();
+
+  vizbox
     .append("ul")
     .attr("class", "overview")
     .selectAll("li")
