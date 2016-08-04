@@ -17,6 +17,23 @@ concerts:
       -
         composer: Brian Ferneyhough
         work: Incipits
+    performers:
+      - Donatienne Michel-Dansac
+      - James Baker
+      - Barry J. Crawford
+      - Stuart Breczinski
+      - Rane Moore
+      - Stephen Gosling
+      - Alex Lipowski
+      - Matthew Gold
+      - Yuki Numata Resnick
+      - Ken Hamao
+      - Elizabeth Weisser Helgeson
+      - Chris Gross
+      - Greg Chudzik
+      - Robyn Schulkowsky
+      - Björn Wilker
+      - David Adamcyk
     meta:
       date: 2016-08-04
       country: DE
@@ -34,4 +51,32 @@ people:
   Donatienne Michel-Dansac:
     gender: FEMALE
   James Baker:
+    gender: MALE
+  Barry J. Crawford:
+    gender: MALE
+  Stuart Breczinski:
+    gender: MALE
+  Rane Moore:
+    gender: FEMALE
+  Stephen Gosling:
+    gender: MALE
+  Alex Lipowski:
+    gender: MALE
+  Matthew Gold:
+    gender: MALE
+  Yuki Numata Resnick:
+    gender: FEMALE
+  Ken Hamao:
+    gender: MALE
+  Elizabeth Weisser Helgeson:
+    gender: FEMALE
+  Chris Gross:
+    gender: MALE
+  Greg Chudzik:
+    gender: MALE
+  Robyn Schulkowsky:
+    gender: FEMALE
+  Björn Wilker:
+    gender: MALE
+  David Adamcyk:
     gender: MALE
