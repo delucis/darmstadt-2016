@@ -20,6 +20,14 @@ concerts:
       -
         composer: Sam Salem
         work: Untitled Valley of Fear
+    performers:
+      - Rocio Bolaños
+      - Daniel Brew
+      - Linda Jankowska
+      - Alice Purton
+      - Emma Richards
+      - Christian Smith
+      - Sabrina Schroeder
     meta:
       date: 2016-08-07
       country: DE
@@ -35,4 +43,16 @@ people:
   Lee Fraser:
     gender: MALE
   Sam Salem:
+    gender: MALE
+  Rocio Bolaños:
+    gender: FEMALE
+  Daniel Brew:
+    gender: MALE
+  Linda Jankowska:
+    gender: FEMALE
+  Alice Purton:
+    gender: FEMALE
+  Emma Richards:
+    gender: FEMALE
+  Christian Smith:
     gender: MALE
