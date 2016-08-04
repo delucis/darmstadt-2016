@@ -6,8 +6,9 @@ d3.json('merged-data.json', function (error, json) {
 
 function render(mergedData) {
   var proportions = getAllOverallProportions(mergedData);
+  var vizbox = d3.select("#vizbox");
 
-  d3.select("#vizbox")
+  vizbox
     .append("ul")
     .attr("class", "overview")
     .selectAll("li")
@@ -21,7 +22,7 @@ function render(mergedData) {
       return header+stats;
     });
 
-  d3.select("#vizbox")
+  vizbox
     .append("ul")
     .attr("class", "details")
     .selectAll("li")
