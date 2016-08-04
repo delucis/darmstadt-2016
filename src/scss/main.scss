@@ -5,10 +5,11 @@
    Variables
    ========================================================================== */
 
-   $highlight: #93FFE8;
+   $highlight: #fc8d62;
    $black: #000;
    $white: #fff;
-   $secondary: #FF94AB;
+   $secondary: #66c2a5;
+   $tertiary: #8da0cb;
 
 /* ==========================================================================
    Author's custom styles
@@ -22,6 +23,17 @@ body {
 
 strong {
   font-weight: 500;
+}
+
+#header {
+  padding: 0.5em 5%;
+  color: lighten($highlight, 25%);
+  background: $highlight;
+  text-align: center;
+  font-size: 0.85em;
+  a {
+    color: $white;
+  }
 }
 
 #vizbox {
@@ -47,7 +59,7 @@ ul {
   flex-wrap: wrap;
   background-color: $white;
   &.overview {
-    background-color: $highlight;
+    background-color: lighten($highlight, 15%);
     color: $black;
   }
   &.details {
