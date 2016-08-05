@@ -8,6 +8,16 @@ concerts:
       -
         composer: Steven K. Takasugi
         work: Sideshow
+    performers:
+      - Barry J. Crawford
+      - Rane Moore
+      - Stephen Gosling
+      - Alex Lipowski
+      - Yuki Numata Resnick
+      - Elizabeth Weisser Helgeson
+      - Chris Gross
+      - David Adamcyk
+      - Ryan Muncy
     meta:
       date: 2016-08-05
       country: DE
@@ -15,4 +25,22 @@ concerts:
       categorisation: Darmstadt-2016
 people:
   Steven K. Takasugi:
+    gender: MALE
+  Barry J. Crawford:
+    gender: MALE
+  Rane Moore:
+    gender: FEMALE
+  Stephen Gosling:
+    gender: MALE
+  Alex Lipowski:
+    gender: MALE
+  Yuki Numata Resnick:
+    gender: FEMALE
+  Elizabeth Weisser Helgeson:
+    gender: FEMALE
+  Chris Gross:
+    gender: MALE
+  David Adamcyk:
+    gender: MALE
+  Ryan Muncy:
     gender: MALE
