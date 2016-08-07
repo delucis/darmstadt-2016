@@ -59,6 +59,7 @@ ul {
   padding: 1em 5%;
   display: flex;
   flex-wrap: wrap;
+  align-items: baseline;
   background-color: $white;
   &.overview {
     background-color: lighten($highlight, 20%);
