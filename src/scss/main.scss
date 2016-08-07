@@ -61,7 +61,7 @@ ul {
   flex-wrap: wrap;
   background-color: $white;
   &.overview {
-    background-color: lighten($highlight, 15%);
+    background-color: lighten($highlight, 20%);
     color: $black;
   }
   &.details {
