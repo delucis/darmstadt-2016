@@ -8,6 +8,10 @@ concerts:
       -
         composer: Alexey Shmurak
         work: lecture notes
+    performers:
+      - Alexey Shmurak
+      - Lee Fraser
+      - N1L
     meta:
       date: 2016-08-06
       country: DE
@@ -15,4 +19,8 @@ concerts:
       categorisation: Darmstadt-2016
 people:
   Alexey Shmurak:
+    gender: MALE
+  Lee Fraser:
+    gender: MALE
+  N1L:
     gender: MALE
