@@ -22,7 +22,7 @@ function render(mergedData) {
     .html(function (d) {
       var p = proportions[d];
       var header = '<h3>' + d + '</h3>';
-      var stats = formatProportion(p, 'p');
+      var stats = proportionBar(p);
       return header+stats;
     });
 
@@ -36,13 +36,13 @@ function render(mergedData) {
     .html(function(d) {
       var perfProp = getPerformerProportion(d, mergedData.people);
       var compProp = getComposerProportion(d, mergedData.people);
-      var title = '<a href="' + d.meta.url + '">' + d.name + '</a>';
+      var title = '<h4><a href="' + d.meta.url + '">' + d.name + '</a></h4>';
       var perfPropString = '', compPropString = '';
       if (perfProp !== undefined) {
-        perfPropString = "<br>Performers: " + formatProportion(perfProp);
+        perfPropString = "<h6>Performers</h6>" + proportionBar(perfProp);
       }
       if (compProp !== undefined) {
-        compPropString = "<br>Composers: " + formatProportion(compProp);
+        compPropString = "<h6>Composers</h6>" + proportionBar(compProp);
       }
       return title + perfPropString + compPropString;
     });
