@@ -49,6 +49,30 @@ strong {
   background-color: lighten($secondary, 15%);
 }
 
+#key {
+  position: fixed;
+  bottom: 0;
+  background: #f9f9f9;
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+  box-shadow: #000 0 1.5em 3em 0.5em;
+  .key-item {
+    padding: 0.5em;
+    margin: 0.5em;
+    display: inline-block;
+    &.m {
+      background: $highlight;
+    }
+    &.f {
+      background: $secondary;
+    }
+    &.o {
+      background: $tertiary;
+    }
+  }
+}
+
 h1,h2,h3,h4,h5,h6 {
   font-weight: 500;
   margin-top: 0;
