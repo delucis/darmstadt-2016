@@ -180,7 +180,9 @@ function getPerformerProportion(concert, people) {
     var proportion = { m: 0, f: 0, o: 0, u: 0 }
     for (var p in performers) {
       var performer = performers[p];
-      if (people[performer].hasOwnProperty('gender')) {
+      if (typeof performer === 'number') {
+        proportion[p] = performer;
+      } else if (people[performer].hasOwnProperty('gender')) {
         switch (people[performer].gender) {
           case "MALE":
             proportion.m += 1;
