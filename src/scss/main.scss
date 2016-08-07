@@ -52,11 +52,11 @@ strong {
 #key {
   position: fixed;
   bottom: 0;
-  background: #f9f9f9;
+  background: $white;
   width: 100%;
   font-size: 0.8em;
   text-align: center;
-  box-shadow: #000 0 1.5em 3em 0.5em;
+  box-shadow: $black 0 1.5em 3em 0.5em;
   .key-item {
     padding: 0.5em;
     margin: 0.5em;
