@@ -135,7 +135,7 @@ function getComposerProportion(concert, people) {
     return undefined;
   } else {
     var programme = concert.programme;
-    var m = 0, f = 0, o = 0, u = 0;
+    var proportion = { m: 0, f: 0, o: 0, u: 0 }
     for (var i = 0; i < programme.length; i++) {
       if (programme[i].hasOwnProperty('composer')) {
         var composers = new Array();
@@ -152,22 +152,22 @@ function getComposerProportion(concert, people) {
           if (people[composer].hasOwnProperty('gender')) {
             switch (people[composer].gender) {
               case "MALE":
-                m += 1;
+                proportion.m += 1;
                 break;
               case "FEMALE":
-                f += 1;
+                proportion.f += 1;
                 break;
+              case "OTHER":
               default:
-                o += 1;
+                proportion.o += 1;
                 break;
             }
           } else {
-            u += 1;
+            proportion.u += 1;
           }
         }
       }
     }
-    var proportion = { m: m, f: f, o: o, u: u }
     return proportion;
   }
 }
@@ -177,26 +177,26 @@ function getPerformerProportion(concert, people) {
     return undefined;
   } else {
     var performers = concert.performers;
-    var m = 0, f = 0, o = 0, u = 0;
+    var proportion = { m: 0, f: 0, o: 0, u: 0 }
     for (var p in performers) {
       var performer = performers[p];
       if (people[performer].hasOwnProperty('gender')) {
         switch (people[performer].gender) {
           case "MALE":
-            m += 1;
+            proportion.m += 1;
             break;
           case "FEMALE":
-            f += 1;
+            proportion.f += 1;
             break;
+          case "OTHER":
           default:
-            o += 1;
+            proportion.o += 1;
             break;
         }
       } else {
-        u += 1;
+        proportion.u += 1;
       }
     }
-    var proportion = { m: m, f: f, o: o, u: u }
     return proportion;
   }
 }
