@@ -59,7 +59,7 @@ function formatProportion(prop, wrapper) {
 
 function getAllOverallProportions(data) {
   var proportions = new Object();
-  proportions.total = getOverallProportion(data);
+  // proportions.total = getOverallProportion(data);
   proportions.composers = getOverallComposerProportion(data);
   proportions.performers = getOverallPerformerProportion(data);
   return proportions;
