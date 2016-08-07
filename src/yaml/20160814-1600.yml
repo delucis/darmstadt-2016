@@ -14,6 +14,12 @@ concerts:
       -
         composer: Simon Løffler
         work: New work
+    performers:
+      - Serge Vuille
+      - Julien Annoni
+      - Olivier Membrez
+      - Julien Mégroz
+      - Robert Torche
     meta:
       date: 2016-08-14
       country: DE
@@ -31,4 +37,10 @@ people:
   Luc Henry:
     gender: MALE
   Simon Løffler:
+    gender: MALE
+  Julien Annoni:
+    gender: MALE
+  Olivier Membrez:
+    gender: MALE
+  Julien Mégroz:
     gender: MALE
