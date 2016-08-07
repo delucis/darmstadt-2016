@@ -29,6 +29,7 @@ function render(mergedData) {
   vizbox
     .select(".overview")
     .insert("li", ":first-child")
+    .attr("class", "heading")
     .append("h1")
     .text("concerts");
 
@@ -57,7 +58,7 @@ function render(mergedData) {
 function formatProportion(prop, wrapper) {
   var el = wrapper ? wrapper : 'span';
   if (prop.hasOwnProperty('m') && prop.hasOwnProperty('f')) {
-    return '<' + el + ' class="proportion">♂ ' + prop.m + ' - ' + prop.f + ' ♀</' + el + '>';
+    return '<' + el + ' class="proportion"> ' + prop.m + ' ♂ - ' + prop.f + ' ♀ - ' + prop.o + ' nb</' + el + '>';
   } else {
     return undefined;
   }
