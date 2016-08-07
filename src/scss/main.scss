@@ -90,6 +90,30 @@ li {
   white-space: nowrap;
 }
 
+.proportion-bar {
+  margin-bottom: 0.6em;
+  span {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 2em;
+    font-weight: 500;
+    text-indent: 0.4em;
+    color: $black;
+    &.m {
+      background: $highlight;
+    }
+    &.f {
+      background: $secondary;
+    }
+    &.o {
+      background: $tertiary;
+    }
+    &.u {
+      background: $grey;
+    }
+  }
+}
+
 .button {
   a {
     text-decoration: none;
