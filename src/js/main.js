@@ -27,6 +27,12 @@ function render(mergedData) {
     });
 
   vizbox
+    .select(".overview")
+    .insert("li", ":first-child")
+    .append("h1")
+    .text("concerts");
+
+  vizbox
     .append("ul")
     .attr("class", "details")
     .selectAll("li")
