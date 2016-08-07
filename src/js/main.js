@@ -57,6 +57,41 @@ function formatProportion(prop, wrapper) {
   }
 }
 
+function proportionBar(props) {
+  var sum = 0;
+  for (var i in props) {
+    if (props.hasOwnProperty(i) && typeof props[i] === 'number') {
+      sum += props[i];
+    }
+  }
+
+  var html = '<div class="proportion-bar">';
+  for (var prop in props) {
+    if (props.hasOwnProperty(prop) && props[prop] > 0) {
+      var tooltip = '';
+      switch (prop) {
+        case "m":
+          tooltip = 'Male';
+          break;
+        case "f":
+          tooltip = 'Female';
+          break;
+        case "o":
+          tooltip = 'Non-binary';
+          break;
+        default:
+          tooltip = 'Unknown';
+          break;
+        }
+        var percentage = props[prop]/sum*100;
+        tooltip += ': ' + percentage.toFixed(1) + '%';
+      html += '<span class="hint--bottom ' + prop + '" style="width:' + percentage + '%;" aria-label="' + tooltip + '">' + props[prop] + '</span>';
+    }
+  }
+  html += '</div>'
+  return html;
+}
+
 function getAllOverallProportions(data) {
   var proportions = new Object();
   // proportions.total = getOverallProportion(data);
