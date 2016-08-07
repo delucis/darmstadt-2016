@@ -44,7 +44,7 @@ strong {
 }
 
 #footer {
-  padding: 2em 5%;
+  padding: 2em 5% 5em;
   color: $black;
   background-color: lighten($secondary, 15%);
 }
@@ -59,8 +59,10 @@ strong {
   box-shadow: $black 0 1.5em 3em 0.5em;
   opacity: 0.95;
   .key-item {
-    padding: 0.5em;
-    margin: 0.5em;
+    line-height: 2.5;
+    padding: 0 0.625em;
+    margin: 0.625em;
+    color: $black;
     display: inline-block;
     &.m {
       background: $highlight;
