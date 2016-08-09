@@ -8,6 +8,12 @@ concerts:
       -
         composer: Lars Petter Hagen
         work: Archive Fever
+    performers:
+      - Bettina Berger
+      - Anna D’Errico
+      - Andrea Nagy
+      - Agnieszka Koprowska-Born
+      - Christopher Mathias
     meta:
       date: 2016-08-06
       country: DE
@@ -15,4 +21,14 @@ concerts:
       categorisation: Darmstadt-2016
 people:
   Lars Petter Hagen:
+    gender: MALE
+  Bettina Berger:
+    gender: FEMALE
+  Anna D’Errico:
+    gender: FEMALE
+  Andrea Nagy:
+    gender: FEMALE
+  Agnieszka Koprowska-Born:
+    gender: FEMALE
+  Christopher Mathias:
     gender: MALE
