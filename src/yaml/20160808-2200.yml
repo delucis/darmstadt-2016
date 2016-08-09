@@ -8,6 +8,11 @@ concerts:
       -
         composer: Michael Pisaro
         work: Concentric Rings in Magnetic Levitation
+    performers:
+      - Linda Jankowska
+      - Mauricio Pauly
+      - Alice Purton
+      - Sam Salem
     meta:
       date: 2016-08-08
       country: DE
@@ -15,4 +20,12 @@ concerts:
       categorisation: Darmstadt-2016
 people:
   Michael Pisaro:
+    gender: MALE
+  Linda Jankowska:
+    gender: FEMALE
+  Alice Purton:
+    gender: FEMALE
+  Sam Salem:
+    gender: MALE
+  Mauricio Pauly:
     gender: MALE
