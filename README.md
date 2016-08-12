@@ -1,5 +1,7 @@
 # darmstadt-2016
 
+[![Build Status](https://travis-ci.org/delucis/darmstadt-2016.svg?branch=master)](https://travis-ci.org/delucis/darmstadt-2016)
+
 ## Development
 
 1. Clone repository
