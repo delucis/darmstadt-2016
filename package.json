@@ -35,7 +35,9 @@
     "yaml:build": "./bin/convert-yaml.sh",
     "postyaml:build": "jsonlint-cli dist/json/*.json",
     "json:build": "./bin/merge-json.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "Chris Swithinbank <swithinbank@gmail.com>",
   "license": "ISC",
@@ -51,9 +53,11 @@
     "nodemon": "^1.10.0",
     "rimraf": "^2.5.4",
     "watchify": "^3.7.0",
-    "yamljs": "^0.2.8"
+    "yamljs": "^0.2.8",
+    "snyk": "^1.40.2"
   },
   "devDependencies": {
     "http-server": "^0.9.0"
-  }
+  },
+  "snyk": true
 }
