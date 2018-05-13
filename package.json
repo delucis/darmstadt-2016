@@ -35,25 +35,28 @@
     "yaml:build": "./bin/convert-yaml.sh",
     "postyaml:build": "jsonlint-cli dist/json/*.json",
     "json:build": "./bin/merge-json.sh",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Chris Swithinbank <swithinbank@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "browserify": "^13.1.0",
+    "browserify": "^16.2.2",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
-    "d3": "^4.2.0",
-    "json-merge": "^1.2.0",
-    "json_merger": "^1.1.0",
+    "d3": "^5.4.0",
+    "json_merger": "^1.2.0",
     "jsonlint-cli": "^1.0.1",
     "mkdirp": "^0.5.1",
-    "node-sass": "^3.8.0",
-    "nodemon": "^1.10.0",
-    "rimraf": "^2.5.4",
-    "watchify": "^3.7.0",
-    "yamljs": "^0.2.8"
+    "node-sass": "^4.9.0",
+    "rimraf": "^2.6.2",
+    "snyk": "^1.80.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "http-server": "^0.9.0"
-  }
+    "http-server": "^0.11.1",
+    "nodemon": "^1.17.4",
+    "watchify": "^3.11.0"
+  },
+  "snyk": true
 }
