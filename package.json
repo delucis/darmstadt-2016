@@ -45,7 +45,6 @@
     "browserify": "^16.2.2",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
     "d3": "^5.4.0",
-    "json-merge": "^1.2.0",
     "json_merger": "^1.2.0",
     "jsonlint-cli": "^1.0.1",
     "mkdirp": "^0.5.1",
