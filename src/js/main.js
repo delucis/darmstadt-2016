@@ -1,8 +1,8 @@
 var d3 = require('d3');
 
-d3.json('merged-data.json', function (error, json) {
-  render(json);
-});
+d3.json('merged-data.json')
+  .then(render)
+  .catch(console.error);
 
 function render(mergedData) {
   var proportions = getAllOverallProportions(mergedData);
