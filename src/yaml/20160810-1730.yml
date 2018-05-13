@@ -1,0 +1,21 @@
+@extends: [merged-data.json]
+@append: true
+concerts:
+  -
+    @append: true
+    name: "Schallfeld: Chamber Music Presentation"
+    programme:
+      -
+        composer: Francesco Filidei
+      -
+        composer: Lorenzo Troiani
+    meta:
+      date: 2016-08-10
+      country: DE
+      url: http://www.internationales-musikinstitut.de/en/program2016/326-10-08-2016/2466-schallfeld-chamber-en.html
+      categorisation: Darmstadt-2016
+people:
+  Francesco Filidei:
+    gender: MALE
+  Lorenzo Troiani:
+    gender: MALE
