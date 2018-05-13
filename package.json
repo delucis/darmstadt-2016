@@ -48,12 +48,12 @@
     "jsonlint-cli": "^1.0.1",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.9.0",
-    "nodemon": "^1.17.4",
     "rimraf": "^2.6.2",
-    "watchify": "^3.11.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.11.1",
+    "nodemon": "^1.17.4",
+    "watchify": "^3.11.0"
   }
 }
