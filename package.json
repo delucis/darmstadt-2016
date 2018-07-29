@@ -44,18 +44,18 @@
   "dependencies": {
     "browserify": "^16.2.2",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
-    "d3": "^5.4.0",
+    "d3": "^5.5.0",
     "json_merger": "^1.2.0",
     "jsonlint-cli": "^1.0.1",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.9.2",
     "rimraf": "^2.6.2",
-    "snyk": "^1.85.0",
+    "snyk": "^1.89.1",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "http-server": "^0.11.1",
-    "nodemon": "^1.17.4",
+    "nodemon": "^1.18.3",
     "watchify": "^3.11.0"
   },
   "snyk": true
