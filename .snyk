@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.11.0
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:hoek:20180212':
@@ -18,7 +18,7 @@ ignore:
   'npm:lodash:20180130':
     - jsonlint-cli > lodash:
         reason: None given
-        expires: '2018-06-12T19:22:10.586Z'
+        expires: '2018-09-15T16:12:16.669Z'
   'npm:stringstream:20180511':
     - json-merge > request > stringstream:
         reason: None given
@@ -36,13 +36,26 @@ ignore:
     - node-sass > request > tunnel-agent:
         reason: None given
         expires: '2018-06-12T19:22:10.586Z'
+  'npm:cryptiles:20180710':
+    - node-sass > node-gyp > request > hawk > cryptiles:
+        reason: None given
+        expires: '2018-08-28T15:53:58.247Z'
 # patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:minimatch:20160620':
     - jsonlint-cli > minimatch:
-        patched: '2018-05-13T19:27:01.747Z'
+        patched: '2018-08-16T16:11:43.871Z'
   'npm:tunnel-agent:20170305':
     - jsonlint-cli > omni-fetch > caw > tunnel-agent:
-        patched: '2018-06-26T04:44:34.381Z'
+        patched: '2018-08-16T16:11:43.871Z'
     - node-sass > request > tunnel-agent:
         patched: '2018-06-26T04:44:34.381Z'
+  'npm:hoek:20180212':
+    - node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2018-07-29T15:40:34.664Z'
+    - node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2018-07-29T15:40:34.664Z'
+    - node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-07-29T15:40:34.664Z'
+    - node-sass > node-gyp > request > hawk > hoek:
+        patched: '2018-07-29T15:40:34.664Z'
