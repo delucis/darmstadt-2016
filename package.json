@@ -48,9 +48,9 @@
     "json_merger": "^1.2.0",
     "jsonlint-cli": "^1.0.1",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.9.2",
+    "node-sass": "^4.9.3",
     "rimraf": "^2.6.2",
-    "snyk": "^1.89.1",
+    "snyk": "^1.91.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
