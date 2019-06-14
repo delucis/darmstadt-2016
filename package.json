@@ -33,7 +33,7 @@
     "data:watch": "nodemon -e yml -x \"npm run data:build\"",
     "data:clean": "rimraf dist/json dist/merged-data.json",
     "yaml:build": "./bin/convert-yaml.sh",
-    "postyaml:build": "jsonlint-cli dist/json/*.json",
+    "postyaml:build": "json-lint dist/json",
     "json:build": "./bin/merge-json.sh",
     "test": "snyk test",
     "snyk-protect": "snyk protect",
@@ -45,17 +45,17 @@
     "browserify": "^16.2.3",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
     "d3": "^5.9.2",
+    "json-linter-2": "^1.0.2",
     "json_merger": "^1.2.0",
-    "jsonlint-cli": "^1.0.1",
     "mkdirp": "^0.5.1",
     "node-sass": "^4.12.0",
     "rimraf": "^2.6.3",
-    "snyk": "^1.162.0",
+    "snyk": "^1.179.0",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
     "http-server": "^0.11.1",
-    "nodemon": "^1.19.0",
+    "nodemon": "^1.19.1",
     "watchify": "^3.11.1"
   },
   "snyk": true
