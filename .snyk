@@ -32,3 +32,8 @@ patch:
         patched: '2019-07-09T01:30:45.605Z'
     - node-sass > gaze > globule > lodash:
         patched: '2019-07-09T01:30:45.605Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-08T01:30:44.297Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-08T01:30:44.297Z'
