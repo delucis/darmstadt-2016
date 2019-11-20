@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "http-server": "^0.11.1",
-    "nodemon": "^1.19.1",
+    "nodemon": "^2.0.0",
     "watchify": "^3.11.1"
   },
   "snyk": true
