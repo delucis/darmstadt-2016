@@ -54,7 +54,7 @@
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "http-server": "^0.11.1",
+    "http-server": "^0.12.0",
     "nodemon": "^1.19.1",
     "watchify": "^3.11.1"
   },
