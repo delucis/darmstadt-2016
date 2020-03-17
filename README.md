@@ -1,7 +1,5 @@
 # darmstadt-2016
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/delucis/darmstadt-2016.svg)](https://greenkeeper.io/)
-
 [![Build Status](https://travis-ci.org/delucis/darmstadt-2016.svg?branch=master)](https://travis-ci.org/delucis/darmstadt-2016)
 
 ## Development
