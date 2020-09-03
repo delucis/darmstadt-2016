@@ -48,7 +48,7 @@
     "json-linter-2": "^1.0.2",
     "json_merger": "^1.2.0",
     "mkdirp": "^0.5.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "rimraf": "^2.6.3",
     "snyk": "^1.317.0",
     "yamljs": "^0.3.0"
