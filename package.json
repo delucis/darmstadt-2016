@@ -41,7 +41,7 @@
   "dependencies": {
     "browserify": "^16.2.3",
     "cpy-cli": "git+https://github.com/chimon2000/cpy-cli.git",
-    "d3": "^5.9.2",
+    "d3": "^7.6.1",
     "json-linter-2": "^1.0.2",
     "json_merger": "^1.2.0",
     "mkdirp": "^0.5.1",
